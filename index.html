@@ -1,0 +1,2051 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <link href='https://i.imgur.com/Nbk8hmY.png' rel='icon' type='image/x-icon'/>
+    <body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMon-BHai API</title>
+<center><img style="width: 50px; vertical-align: middle; margin-right: 10px;" src="https://i.imgur.com/EI3IFQM.gif">
+        <h5 style="color: black; font-family: Roboto Condensed;">
+            Vui Lòng Chờ Kết Nối Đến EMon-BHai API...!
+        </h5></center>
+    <meta content='API EMon-BHai' !' property='og:title' />
+    <meta content='http://api-emon-bhai.emonapi.repl.co/' property='og:url' />
+    <meta content='Web Của Phan Duy !' property='og:site_name' />
+    <meta content='https://scontent.fhan6-1.fna.fbcdn.net/v/t1.15752-9/270068420_643178866803519_7319501327887179137_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=GtzX5tUeiQAAX9gtf6x&_nc_ht=scontent.fhan6-1.fna&oh=03_AVKHW2AK5RL_gFjlYbGqi8Y3ub-o5dEDYFkRYfK7rKF0JA&oe=62260D4D' property='og:image' />
+    <meta content='website' property='og:type' />
+    <link rel="dns-prefetch" href="//github" >
+    <link rel="dns-prefetch" href="http://api-emon-bhai.emonapi.repl.co/">
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ngocminhvn/all/snow.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.min.css"/>
+    <link rel="stylesheet" href="mod.css"/>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+        .name {font-family: 'Nunito Sans', sans-serif !important;}
+    </style>
+        <div class="snowflake"><img height="23px" src="https://i.imgur.com/Nbk8hmY.png" alt="hoa" /></div>
+        <div class="snowflake"><img height="23px" src="https://i.imgur.com/Nbk8hmY.png" alt="hoa" /></div>
+        <div class="snowflake"><img height="23px" src="https://i.imgur.com/Nbk8hmY.png" alt="hoa" /></div>
+        <div class="snowflake"><img height="23px" src="https://i.imgur.com/Nbk8hmY.png" alt="hoa" /></div>
+        <div class="snowflake"><img height="23px" src="https://i.imgur.com/Nbk8hmY.png" alt="hoa" /></div>
+        <div class="snowflake"><img height="23px" src="https://i.imgur.com/Nbk8hmY.png" alt="hoa" /></div>
+        <div class="snowflake"><img height="23px" src="https://i.imgur.com/Nbk8hmY.png" alt="hoa" /></div>
+        <div class="snowflake"><img height="23px" src="https://i.imgur.com/Nbk8hmY.png" alt="hoa" /></div>
+        <div class="snowflake"><img height="17px" src="https://i.imgur.com/Nbk8hmY.png" alt="hoa" /></div>
+
+    </div>
+
+    <body>
+        <script type='text/javascript'>
+            ! function(e, t, a) {
+                function n() {
+                    c(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), o(), r()
+                }
+
+                function r() {
+                    for (var e = 0; e < d.length; e++) d[e].alpha <= 0 ? (t.body.removeChild(d[e].el), d.splice(e, 1)) : (d[e].y--, d[e].scale += .004, d[e].alpha -= .013, d[e].el.style.cssText = "left:" + d[e].x + "px;top:" + d[e].y + "px;opacity:" + d[e].alpha + ";transform:scale(" + d[e].scale + "," + d[e].scale + ") rotate(45deg);background:" + d[e].color + ";z-index:99999");
+                    requestAnimationFrame(r)
+                }
+
+                function o() {
+                    var t = "function" == typeof e.onclick && e.onclick;
+                    e.onclick = function(e) {
+                        t && t(), i(e)
+                    }
+                }
+
+                function i(e) {
+                    var a = t.createElement("div");
+                    a.className = "heart", d.push({
+                        el: a,
+                        x: e.clientX - 5,
+                        y: e.clientY - 5,
+                        scale: 1,
+                        alpha: 1,
+                        color: s()
+                    }), t.body.appendChild(a)
+                }
+
+                function c(e) {
+                    var a = t.createElement("style");
+                    a.type = "text/css";
+                    try {
+                        a.appendChild(t.createTextNode(e))
+                    } catch (t) {
+                        a.styleSheet.cssText = e
+                    }
+                    t.getElementsByTagName("head")[0].appendChild(a)
+                }
+
+                function s() {
+                    return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+                }
+                var d = [];
+                e.requestAnimationFrame = function() {
+                    return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function(e) {
+                        setTimeout(e, 1e3 / 60)
+                    }
+                }(), n()
+            }(window, document);
+        </script>
+        <script language="JavaScript">
+            window.onload = function() {
+                document.addEventListener("contextmenu", function(e) {
+                    e.preventDefault();
+                }, false);
+                document.addEventListener("keydown", function(e) {
+                    //document.onkeydown = function(e) {
+                    // "I" key
+                    if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                        disabledEvent(e);
+                    }
+                    // "J" key
+                    if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                        disabledEvent(e);
+                    }
+                    // "S" key + macOS
+                    if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                        disabledEvent(e);
+                    }
+                    // "U" key
+                    if (e.ctrlKey && e.keyCode == 85) {
+                        disabledEvent(e);
+                    }
+                    // "F12" key
+                    if (event.keyCode == 123) {
+                        disabledEvent(e);
+                    }
+                }, false);
+
+                function disabledEvent(e) {
+                    if (e.stopPropagation) {
+                        e.stopPropagation();
+                    } else if (window.event) {
+                        window.event.cancelBubble = true;
+                    }
+                    e.preventDefault();
+                    return false;
+                }
+            };
+        </script>
+        <script type='text/javascript'>
+            //<![CDATA[
+            shortcut = {
+                all_shortcuts: {},
+                add: function(a, b, c) {
+                    var d = {
+                        type: "keydown",
+                        propagate: !1,
+                        disable_in_input: !1,
+                        target: document,
+                        keycode: !1
+                    };
+                    if (c)
+                        for (var e in d) "undefined" == typeof c[e] && (c[e] = d[e]);
+                    else c = d;
+                    d = c.target, "string" == typeof c.target && (d = document.getElementById(c.target)), a = a.toLowerCase(), e = function(d) {
+                        d = d || window.event;
+                        if (c.disable_in_input) {
+                            var e;
+                            d.target ? e = d.target : d.srcElement && (e = d.srcElement), 3 == e.nodeType && (e = e.parentNode);
+                            if ("INPUT" == e.tagName || "TEXTAREA" == e.tagName) return
+                        }
+                        d.keyCode ? code = d.keyCode : d.which && (code = d.which), e = String.fromCharCode(code).toLowerCase(), 188 == code && (e = ","), 190 == code && (e = ".");
+                        var f = a.split("+"),
+                            g = 0,
+                            h = {
+                                "`": "~",
+                                1: "!",
+                                2: "@",
+                                3: "#",
+                                4: "$",
+                                5: "%",
+                                6: "^",
+                                7: "&",
+                                8: "*",
+                                9: "(",
+                                0: ")",
+                                "-": "_",
+                                "=": "+",
+                                ";": ":",
+                                "'": '"',
+                                ",": "<",
+                                ".": ">",
+                                "/": "?",
+                                "\\": "|"
+                            },
+                            i = {
+                                esc: 27,
+                                escape: 27,
+                                tab: 9,
+                                space: 32,
+                                "return": 13,
+                                enter: 13,
+                                backspace: 8,
+                                scrolllock: 145,
+                                scroll_lock: 145,
+                                scroll: 145,
+                                capslock: 20,
+                                caps_lock: 20,
+                                caps: 20,
+                                numlock: 144,
+                                num_lock: 144,
+                                num: 144,
+                                pause: 19,
+                                "break": 19,
+                                insert: 45,
+                                home: 36,
+                                "delete": 46,
+                                end: 35,
+                                pageup: 33,
+                                page_up: 33,
+                                pu: 33,
+                                pagedown: 34,
+                                page_down: 34,
+                                pd: 34,
+                                left: 37,
+                                up: 38,
+                                right: 39,
+                                down: 40,
+                                f1: 112,
+                                f2: 113,
+                                f3: 114,
+                                f4: 115,
+                                f5: 116,
+                                f6: 117,
+                                f7: 118,
+                                f8: 119,
+                                f9: 120,
+                                f10: 121,
+                                f11: 122,
+                                f12: 123
+                            },
+                            j = !1,
+                            l = !1,
+                            m = !1,
+                            n = !1,
+                            o = !1,
+                            p = !1,
+                            q = !1,
+                            r = !1;
+                        d.ctrlKey && (n = !0), d.shiftKey && (l = !0), d.altKey && (p = !0), d.metaKey && (r = !0);
+                        for (var s = 0; k = f[s], s < f.length; s++) "ctrl" == k || "control" == k ? (g++, m = !0) : "shift" == k ? (g++, j = !0) : "alt" == k ? (g++, o = !0) : "meta" == k ? (g++, q = !0) : 1 < k.length ? i[k] == code && g++ : c.keycode ? c.keycode == code && g++ : e == k ? g++ : h[e] && d.shiftKey && (e = h[e], e == k && g++);
+                        if (g == f.length && n == m && l == j && p == o && r == q && (b(d), !c.propagate)) return d.cancelBubble = !0, d.returnValue = !1, d.stopPropagation && (d.stopPropagation(), d.preventDefault()), !1
+                    }, this.all_shortcuts[a] = {
+                        callback: e,
+                        target: d,
+                        event: c.type
+                    }, d.addEventListener ? d.addEventListener(c.type, e, !1) : d.attachEvent ? d.attachEvent("on" + c.type, e) : d["on" + c.type] = e
+                },
+                remove: function(a) {
+                    var a = a.toLowerCase(),
+                        b = this.all_shortcuts[a];
+                    delete this.all_shortcuts[a];
+                    if (b) {
+                        var a = b.event,
+                            c = b.target,
+                            b = b.callback;
+                        c.detachEvent ? c.detachEvent("on" + a, b) : c.removeEventListener ? c.removeEventListener(a, b, !1) : c["on" + a] = !1
+                    }
+                }
+            }, shortcut.add("Ctrl+U", function() {
+                top.location.href = "http://api-emon-bhai.emonapi.repl.co/"
+            }), shortcut.add("F12", function() {
+                top.location.href = "http://api-emon-bhai.emonapi.repl.co/"
+            }), shortcut.add("Ctrl+Shift+I", function() {
+                top.location.href = "http://api-emon-bhai.emonapi.repl.co/"
+            }), shortcut.add("Ctrl+S", function() {
+                top.location.href = "http://api-emon-bhai.emonapi.repl.co/"
+            }), shortcut.add("Ctrl+Shift+C", function() {
+                top.location.href = "http://api-emon-bhai.emonapi.repl.co/o"
+            });
+            //]]>
+        </script>
+
+        <!-- Meta Data -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="format-detection" content="address=no">
+        <meta name="author" content="EMon-BHai">
+
+
+
+        <!-- Favicons -->
+        <link href='img/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="cc.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/style-dark.css">
+        <link rel="stylesheet" type="text/css" href="assets/demo/style-demo.css">
+
+
+
+    </body>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader__wrap">
+            <div class="circle-pulse">
+                <div class="circle-pulse__1"></div>
+                <div class="circle-pulse__2"></div>
+            </div>
+            <div class="preloader__progress"><span></span></div>
+        </div>
+    </div>
+
+    <main class="main">
+
+        <!-- Header Image -->
+        <div class="header-image">
+            <div class="js-parallax" style="background-image: url(https://i.pinimg.com/originals/ad/d1/60/add160181e3980a036eb1dde764993dc.gif);"></div>
+        </div>
+<div class="container gutter-top ">
+            <!-- Header -->
+            <header class="header box">
+                <div class="header__left">
+                    <div class="header__photo">
+                        <img class="header__photo-img" src="https://media.tenor.com/FkB_KcLd0gUAAAAd/kaneki.gif" alt="EMon-BHai API">
+                    </div>
+                    <div class="header__base-info">
+                        <h2 class="title titl--h1"><b>EMon-BHai API</b>
+<html>
+<head>
+<style>
+  .verified-icon {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .icon-wrapper {
+    position: relative;
+  }
+
+  .icon {
+    width: 17px;
+    height: 17px;
+    fill: #1877F2;
+  }
+
+  .verification-text {
+    display: none;
+    margin-left: 4px;
+    font-weight: bold;
+    color: #1877f2;
+  }
+
+  .verified .verification-text {
+    display: inline;
+  }
+</style>
+</head>
+<body>
+
+<span class="verified-icon" onmouseover="showVerification()" onmouseout="hideVerification()">
+  <div aria-label="Đã xác minh" class="icon-wrapper">
+    <svg fill="currentColor" viewBox="0 0 12 13" width="10px" height="10px" class="icon">
+      <title>Trang này đã xác minh bởi EMon-BHai API</title>
+      <g fill-rule="evenodd" transform="translate(-98 -917)">
+        <path d="m106.853 922.354-3.5 3.5a.499.499 0 0 1-.706 0l-1.5-1.5a.5.5 0 1 1 .706-.708l1.147 1.147 3.147-3.147a.5.5 0 1 1 .706.708m3.078 2.295-.589-1.149.588-1.15a.633.633 0 0 0-.219-.82l-1.085-.7-.065-1.287a.627.627 0 0 0-.6-.603l-1.29-.066-.703-1.087a.636.636 0 0 0-.82-.217l-1.148.588-1.15-.588a.631.631 0 0 0-.82.22l-.701 1.085-1.289.065a.626.626 0 0 0-.6.6l-.066 1.29-1.088.702a.634.634 0 0 0-.216.82l.588 1.149-.588 1.15a.632.632 0 0 0 .219.819l1.085.701.065 1.286c.014.33.274.59.6.604l1.29.065.703 1.088c.177.27.53.362.82.216l1.148-.588 1.15.589a.629.629 0 0 0 .82-.22l.701-1.085 1.286-.064a.627.627 0 0 0 .604-.601l.065-1.29 1.088-.703a.633.633 0 0 0 .216-.819"></path>
+      </g>
+    </svg>
+  </div>
+</span>
+
+<script>
+  function showVerification() {
+    const icon = document.querySelector(".verified-icon");
+    icon.classList.add("verified");
+  }
+
+  function hideVerification() {
+    const icon = document.querySelector(".verified-icon");
+    icon.classList.remove("verified");
+  }
+</script>
+</body>
+</html>
+</h2>
+                    </div>
+                </div>
+            <div style="font-size: 20px">
+              <marquee>
+<script type="text/javascript">
+farbbibliothek = new Array();
+farbbibliothek[0] = new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF5500","#FF6600","#FF7700","#FF8800","#FF9900","#FFaa00","#FFbb00","#FFcc00","#FFdd00","#FFee00","#FFff00","#FFee00","#FFdd00","#FFcc00","#FFbb00","#FFaa00","#FF9900","#FF8800","#FF7700","#FF6600","#FF5500","#FF4400","#FF3300","#FF2200","#FF1100");
+farbbibliothek[1] = new Array("#00FF00","#000000","#00FF00","#00FF00");
+farbbibliothek[2] = new Array("#00FF00","#FF0000","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00","#00FF00");
+farbbibliothek[3] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF00","#80FF00","#40FF00","#00FF00","#00FF40","#00FF80","#00FFC0","#00FFFF","#00C0FF","#0080FF","#0040FF","#0000FF","#4000FF","#8000FF","#C000FF","#FF00FF","#FF00C0","#FF0080","#FF0040");
+farbbibliothek[4] = new Array("#FF0000","#EE0000","#DD0000","#CC0000","#BB0000","#AA0000","#990000","#880000","#770000","#660000","#550000","#440000","#330000","#220000","#110000","#000000","#110000","#220000","#330000","#440000","#550000","#660000","#770000","#880000","#990000","#AA0000","#BB0000","#CC0000","#DD0000","#EE0000");
+farbbibliothek[5] = new Array("#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFFF");
+farbbibliothek[6] = new Array("#0000FF","#FFFF00");
+farben = farbbibliothek[4];
+function farbschrift(){for(var b=0;b<Buchstabe.length;b++){document.all["a"+b].style.color=farben[b]}farbverlauf()}function string2array(b){Buchstabe=new Array();while(farben.length<b.length){farben=farben.concat(farben)}k=0;while(k<=b.length){Buchstabe[k]=b.charAt(k);k++}}function divserzeugen(){for(var b=0;b<Buchstabe.length;b++){document.write("<span id='a"+b+"' class='a"+b+"'>"+Buchstabe[b]+"</span>")}farbschrift()}var a=1;function farbverlauf(){for(var b=0;b<farben.length;b++){farben[b-1]=farben[b]}farben[farben.length-1]=farben[-1];setTimeout("farbschrift()",30)}var farbsatz=1;function farbtauscher(){farben=farbbibliothek[farbsatz];while(farben.length<text.length){farben=farben.concat(farben)}farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001))}setInterval("farbtauscher()",5000);
+
+text= "Chào Mừng Bạn Đến Với EMon-BHai API. Nơi Cung Cấp API Miễn Phí"; //h
+string2array(text);
+divserzeugen();
+//document.write(text);
+</script></div></marquee>
+<style>
+  .header__social-container {
+    text-align: center;
+  }
+
+  .header__social {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .header__social li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+</style>
+
+</head>
+<body>
+<div class="header__social-container">
+  <ul class="header__social">
+    <li><a href="https://fb.me/anonytruc.user" target="_blank"><span class="nav-link-icon mr-1"><i class="icon-img"><img height="20" src="./img/fb.svg"></i></span></a></li>
+    <li><a href="https://zalo.me/0899310940/" target="_blank"><span class="nav-link-icon mr-1"><i class="icon-img"><img height="20" src="https://stc-zaloprofile.zdn.vn/favicon.ico"></i></span></a></li>
+    <li><a href="mailto:phantrungtrucofficial@gmail.com" target="_blank"><span class="nav-link-icon mr-1"><i class="icon-img"><img height="20" src="https://th.bing.com/th/id/R.229079c8f5240851cece598cf8eee770?rik=TvMiz3mBQ9DAlQ&riu=http%3a%2f%2fwww.techerator.com%2fwp-content%2fuploads%2f2013%2f06%2fGmail-Logo.png&ehk=whqP3PDQYFbziZN8i5yRAa9t7YY2hWS0gvPmKvxRoug%3d&risl=&pid=ImgRaw&r=0"></i></span></a></li>
+    <li><a href="https://github.com/phantrungtruc" target="_blank"><span class="nav-link-icon mr-1"><i class="icon-img"><img height="20" src="https://github.com/fluidicon.png"></i></span></a></li>
+    <li><a href="tel:0899310940" target="_blank"><span class="nav-link-icon mr-1"><i class="icon-img"><img height="20" src="https://clipart-library.com/img/1344166.png"></i></span></a></li>
+  </ul>
+</div>
+</body>
+</html>
+            </div>
+            </div>
+            <div class="row sticky-parent">
+                <!-- Sidebar nav -->
+                <!-- Content -->
+                <div class="col-12">
+                    <div class="box box-content">
+                        <!-- What -->
+                        <div class="mt-1">
+                            <h3 class="title title--h2 first-title title__separate">🔀 DANH SÁCH API</h3>
+                            <div class="row">
+<!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/originals/5a/8e/72/5a8e72390a066bbede2cd33612760ca3.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/originals/5a/8e/72/5a8e72390a066bbede2cd33612760ca3.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ca Dao</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/cadao.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/2eY583Z.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/2eY583Z.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Thính</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/thinh.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+<!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/c1/48/1c/c1481c423c7546e858e361104e4bcaea.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/c1/48/1c/c1481c423c7546e858e361104e4bcaea.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ngôn Tình</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/ngontinh')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/03/06/1e/03061e37817010401f51b3394ec72d81.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/03/06/1e/03061e37817010401f51b3394ec72d81.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Hôn Nhau</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/kiss.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/originals/05/48/dd/0548dd4afa665874c0c568fe5c189bda.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/originals/05/48/dd/0548dd4afa665874c0c568fe5c189bda.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Anime</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/anime.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+<!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/originals/67/a9/85/67a98567e4b2449cd9dcb41b3bb047ea.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/originals/67/a9/85/67a98567e4b2449cd9dcb41b3bb047ea.gif 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Anime 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/vdanime')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/Mc7rWvFv/12334wrwd534wrdf-1.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/Mc7rWvFv/12334wrwd534wrdf-1.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Tát Nhau</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/slap.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/originals/8d/9d/d7/8d9dd735e0f882fdc540dc957ee6ab79.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/originals/8d/9d/d7/8d9dd735e0f882fdc540dc957ee6ab79.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Đá Nhau</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/spar.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/originals/6c/3d/e6/6c3de6864c2ac9874a7d3a236f4634b1.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/originals/6c/3d/e6/6c3de6864c2ac9874a7d3a236f4634b1.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Gái Xinh</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gai.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/d5/af/09/d5af09e762a7405662b73e5f88644e47.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/d5/af/09/d5af09e762a7405662b73e5f88644e47.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Cosplay</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/cosplay.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/originals/1d/d2/09/1dd2095b4bb6919583a64c1d245856bb.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/originals/1d/d2/09/1dd2095b4bb6919583a64c1d245856bb.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Gái Nhảy Tiktok</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gaixinhtiktok.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div> 
+
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/originals/d9/d3/58/d9d358be24f3186070cfc996b04e1984.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/originals/d9/d3/58/d9d358be24f3186070cfc996b04e1984.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Meme</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/meme.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>   
+
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/93/07/00/9307004916c8155b66934e94e4f6ba57.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/93/07/00/9307004916c8155b66934e94e4f6ba57.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Gái Đít Bự</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gaiditbu.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>        
+
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/64/ef/cc/64efccba22de2bc2b014d710983d866d.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/64/ef/cc/64efccba22de2bc2b014d710983d866d.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Gái Vú To</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gaivuto.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/74/de/99/74de998cf4ec3c469d76ef9b0e72a64e.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/74/de/99/74de998cf4ec3c469d76ef9b0e72a64e.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Gái Sexy</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gaisexy.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/V6rx9x2y/tumblr-0a7f78ae0514fd8654409bd7e2410068-a200b089-500.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/V6rx9x2y/tumblr-0a7f78ae0514fd8654409bd7e2410068-a200b089-500.gif 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Bóp Mông</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/bopmong.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/pLrqnDg4/78d07b6be53bea612b6891724c1a23660102a7c4.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/pLrqnDg4/78d07b6be53bea612b6891724c1a23660102a7c4.gif 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Bóp Vú</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/bopvu.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/zfBp5dSR/91fea1737989a057137c3c07df8560cf.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/zfBp5dSR/91fea1737989a057137c3c07df8560cf.gif 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Bú Lồn</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/bulon.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/HxHX2BYh/E9-Igg-Su-WEAMps-n.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/HxHX2BYh/E9-Igg-Su-WEAMps-n.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh 18</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/anh18.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/fulmOBZ.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/fulmOBZ.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Hentai</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/hentai.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+<!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/bb/c6/ef/bbc6ef5b14771e63c2448a1cf73e4a53.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/bb/c6/ef/bbc6ef5b14771e63c2448a1cf73e4a53.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Haiten</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/anhhaiten.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://1.bp.blogspot.com/-1JcdJIayVfk/YAlQ0x_M2bI/AAAAAAAAIjA/u8U0SBji4FITXv2PJ33VP6HbqahwoqBLwCLcBGAsYHQ/s720/Aimee-nude%2B%25280%2529.jpgg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://1.bp.blogspot.com/-1JcdJIayVfk/YAlQ0x_M2bI/AAAAAAAAIjA/u8U0SBji4FITXv2PJ33VP6HbqahwoqBLwCLcBGAsYHQ/s720/Aimee-nude%2B%25280%2529.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Sex</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/videosex.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>  
+
+
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/Qd8FPsJz/868h.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/Qd8FPsJz/868h.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">
+                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Nude</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/nude.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pixxxels.cc/CL5n5ptV/MBuXfph.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pixxxels.cc/CL5n5ptV/MBuXfph.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Twitter</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/imagetw.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/b8/77/d1/b877d15b61d0e4a17401396eb79dac5d.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/b8/77/d1/b877d15b61d0e4a17401396eb79dac5d.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Trai</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/trai.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.ibb.co/tZ6nzzs/trai336.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.ibb.co/tZ6nzzs/trai336.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Trai 3</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/trai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/736x/6f/53/3e/6f533e1135a18d05a8e0892d429f52a7.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/736x/6f/53/3e/6f533e1135a18d05a8e0892d429f52a7.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Trai 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/boy/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/ciin/z3382882364201_71b96c6fdc25c9840daed90075e3badd.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/ciin/z3382882364201_71b96c6fdc25c9840daed90075e3badd.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Ciin</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/ciin/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/hoang/z3876043098503_19f1a53fa6c5f9a74535c8f9c544c151.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/hoang/z3876043098503_19f1a53fa6c5f9a74535c8f9c544c151.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Hoàng</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/hoang/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/huyen/z3234618367582_a11ca0719fe4dd6a1ab597abcc9241e3.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/huyen/z3234618367582_a11ca0719fe4dd6a1ab597abcc9241e3.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Huyền</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/huyen/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/mirai/e2dfd4d04a44e697379dbb99fa5d2164.png" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/mirai/e2dfd4d04a44e697379dbb99fa5d2164.png 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Mirai</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/mirai/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/ngoctuyen/z3380983215735_2b053b34207067b5f7ddc9502d513880.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/ngoctuyen/z3380983215735_2b053b34207067b5f7ddc9502d513880.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Ngọc Tuyền</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/ngoctuyen/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/po/203539301_3096017283960656_2089949437338806527_n.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/po/203539301_3096017283960656_2089949437338806527_n.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Pô</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/po/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/nude/photo_2021-08-21_11-37-14.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/nude/photo_2021-08-21_11-37-14.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Nude 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/nude/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://damvc.vip/post/wp-content/uploads/2022/12/phim-sexx-khong-che-bien-con-gai-tuoi-teen-thanh-no-le-tinh-duc-couple-sex.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://damvc.vip/post/wp-content/uploads/2022/12/phim-sexx-khong-che-bien-con-gai-tuoi-teen-thanh-no-le-tinh-duc-couple-sex.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Sex 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/videosex/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://anhsex.net/files/501/1692114327017.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://anhsex.net/files/501/1692114327017.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Sex 3</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/vdsex')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/vu/IMG_20210707_175652_608.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/vu/IMG_20210707_175652_608.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Dú</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/vu/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/05WK1JmF/gai-dep.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/05WK1JmF/gai-dep.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Dú 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/du')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/wibu/z3263198557470_a12539e29bef826c764f34b0a5b1f73c.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/wibu/z3263198557470_a12539e29bef826c764f34b0a5b1f73c.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Wibu</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/wibu/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/rem/8611DA99-3691-4E47-9B89-FE47841F9EB2.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/rem/8611DA99-3691-4E47-9B89-FE47841F9EB2.jpeg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Rem</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/rem/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/maru/9001F37B-FDF8-4FA0-8281-D1F8AF09E872.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/maru/9001F37B-FDF8-4FA0-8281-D1F8AF09E872.jpeg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Maru</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/maru/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/chitanda/0007B78A-B124-462A-B207-13BDF77F0A58.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/chitanda/0007B78A-B124-462A-B207-13BDF77F0A58.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Chitanda</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/chitanda/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/kanna/163EA8B9-C81A-4FDC-B965-09F3FCC3D824.png" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/kanna/163EA8B9-C81A-4FDC-B965-09F3FCC3D824.png 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Kanna</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/kanna/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/kurumi/A6A4CBE9-2F32-4226-85D0-9AD2A1CEE552.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/kurumi/A6A4CBE9-2F32-4226-85D0-9AD2A1CEE552.jpeg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Kurumi</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/kurumi/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/lucy/4D1E38FF-CB2A-4757-9E97-AB0CF9218BDB.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/lucy/4D1E38FF-CB2A-4757-9E97-AB0CF9218BDB.jpeg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Lucy</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/lucy/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/sagiri/8B63E8F8-855B-4057-8D10-D314C5D52D43.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/sagiri/8B63E8F8-855B-4057-8D10-D314C5D52D43.jpeg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Sagiri</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/sagiri/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://image-random-bot-telegram.quangvinh-2204.repl.co/violet/AB4FEE02-4DB2-44C5-A86B-C71EAFC18F72.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://image-random-bot-telegram.quangvinh-2204.repl.co/violet/AB4FEE02-4DB2-44C5-A86B-C71EAFC18F72.jpeg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Violet</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://image-random-bot-telegram.quangvinh-2204.repl.co/violet/?apikey=123456789EMon-BHai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://mona.feedheavens.repl.co/mona/119.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://mona.feedheavens.repl.co/mona/119.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Mona</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://mona.feedheavens.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://hutao.quangvinh-2204.repl.co/Hutao/21557c73e92ce33263e64ca43c3e9cdc.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://hutao.quangvinh-2204.repl.co/Hutao/21557c73e92ce33263e64ca43c3e9cdc.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Hutao</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://hutao.quangvinh-2204.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://ganyu.staronekz123.repl.co/ganyu/119.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://ganyu.staronekz123.repl.co/ganyu/119.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh GanYu</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://ganyu.staronekz123.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://yoimiya.staronekz123.repl.co/yoimiya/173.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://yoimiya.staronekz123.repl.co/yoimiya/173.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Yoimiya</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://yoimiya.staronekz123.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://guuji-yae.staronekz123.repl.co/Guuji%20Yae/46.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://guuji-yae.staronekz123.repl.co/Guuji%20Yae/46.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Guujiyae</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://guuji-yae.staronekz123.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://yunjin.staronekz123.repl.co/Yunjin/1.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://yunjin.staronekz123.repl.co/Yunjin/1.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Yunjin</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://yunjin.staronekz123.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://raiden-shogun.staronekz123.repl.co/raiden/234.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://raiden-shogun.staronekz123.repl.co/raiden/234.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Raiden Shogun</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://raiden-shogun.staronekz123.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://sucrose.staronekz123.repl.co/Sucrose/94798448_p0_master1200.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://sucrose.staronekz123.repl.co/Sucrose/94798448_p0_master1200.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Sucrose</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://sucrose.staronekz123.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://amber.staronekz123.repl.co/amber/91996158_p0_master1200.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://amber.staronekz123.repl.co/amber/91996158_p0_master1200.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Amber</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://amber.staronekz123.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com//CnaVoU7.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com//CnaVoU7.jpeg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Phong Cảnh</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://api-image-phong-canh.staronekz123.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/pWEDShw.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/pWEDShw.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Phong Cảnh 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/phongcanh')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://img-cdn.2game.vn/pictures/images/2016/5/30/onehit_30_5_2016_8.GIF" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://img-cdn.2game.vn/pictures/images/2016/5/30/onehit_30_5_2016_8.GIF 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Anime Onehit</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/spar.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.ibb.co/L6P4yTQ/lavril-king-s-raid-loli-teddy-bear-gothic-wink-white-hair-chains-33022.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.ibb.co/L6P4yTQ/lavril-king-s-raid-loli-teddy-bear-gothic-wink-white-hair-chains-33022.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Loli</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/loli.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.ibb.co/1qQjSMG/136721754-229741408590443-881493423119205210-n.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.ibb.co/1qQjSMG/136721754-229741408590443-881493423119205210-n.jpg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Loli 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://apiloli.staronekz123.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/o8YRjWC.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/o8YRjWC.jpeg 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Gái Alime</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gai-alime.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://lienquan.sangnguyn10.repl.co/lienquan/1bbe88a7b02531449e5e24d9f8c3ad6d611781f407ee1.png" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://lienquan.sangnguyn10.repl.co/lienquan/1bbe88a7b02531449e5e24d9f8c3ad6d611781f407ee1.png 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Tướng Liên Quân</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://lienquan.sangnguyn10.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://slime.sangnguyn10.repl.co/slime/LN_11_01.png" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://slime.sangnguyn10.repl.co/slime/LN_11_01.png 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Slime</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://slime.sangnguyn10.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://lienminh.sangnguyn10.repl.co/lienminh/56c9cf8818ab9.png" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://lienminh.sangnguyn10.repl.co/lienminh/56c9cf8818ab9.png 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Liên Minh</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://lienminh.sangnguyn10.repl.co/')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/e6IEwzg.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/e6IEwzg.gif 200w, https://cdn.kiencang.net/wp-content/uploads/2022/02/cap-doi-hoan-canh-150x150.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Ôm</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/om.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/2lZWYhE.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/2lZWYhE.gif 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Gif Sờ Đầu</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/sodau.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/ur6tUm0.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/ur6tUm0.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh BlackPink</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/blackpink.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/dM3He80.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/dM3He80.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Gái Xinh 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gai2.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/cuectq9.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/cuectq9.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh 6 Múi </h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/6mui.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/RFX4skw.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/RFX4skw.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh 6 Múi 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/mui6')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/xsu6v2I.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/xsu6v2I.jpeg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Ayaka</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/ayaka.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/Dft3JStX/images-35.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/Dft3JStX/images-35.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Gái Nga</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gainga.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/1AdwMb8.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/1AdwMb8.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Gái Xinh 3</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gai3.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/otY2kPF.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/otY2kPF.jpeg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Ganyu 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/ganyu2.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/3xz5SpMj/24715d79.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/3xz5SpMj/24715d79.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Hanna UwU</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/hannauwu.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/7LsTscpc/210893453-363686541850028-9067698661105961790-n.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/7LsTscpc/210893453-363686541850028-9067698661105961790-n.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Instagram</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/ig.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://www.quirkybyte.com/wp-content/uploads/2018/09/world-without-comic-books-gif-heath-ledger-joker.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://www.quirkybyte.com/wp-content/uploads/2018/09/world-without-comic-books-gif-heath-ledger-joker.gif 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Câu Nói Joker</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/joker.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/a1/16/d1/a116d1bd68d9333afe4b0f862bd83605.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/a1/16/d1/a116d1bd68d9333afe4b0f862bd83605.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video TikTok</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/videotiktok.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/d7/12/97/d712975bde7cd6e26c330df58e103042.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/d7/12/97/d712975bde7cd6e26c330df58e103042.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video TikTok 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/videotiktok2.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/25mh2Jns/2903488629980639.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/25mh2Jns/2903488629980639.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh VSBG</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/vsbg.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/Cwl2Gt9.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/Cwl2Gt9.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Cặp Đôi Anime</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/capdoi.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/236x/a1/36/f3/a136f3fc090f4eaf2bdda3cacd93320c.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/236x/a1/36/f3/a136f3fc090f4eaf2bdda3cacd93320c.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Jack</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/jack5cu.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/2ejEMhd.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/2ejEMhd.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Jimmy</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/jimmy.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/Jin5JJT.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/Jin5JJT.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Khánh Huyền</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/khanhhuyen.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/HL32OBe.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/HL32OBe.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Lê Bống</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/lebong.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/0Mt5DqB.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/0Mt5DqB.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Linh Ngọc Đàm</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/linhngocdam.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/foVy22C.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/foVy22C.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Ngọc Trinh</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/ngoctrinh.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/pXQJfvVt/241314518-890967261815522-5055044552128144880-n.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/pXQJfvVt/241314518-890967261815522-5055044552128144880-n.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Anime 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/anhanime2.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/sDfpv7MV/57221570-142805683438825-2632235334687331562-n.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/sDfpv7MV/57221570-142805683438825-2632235334687331562-n.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Ausand</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/ausand.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/j5W1NfwJ/100939876-261715911852373-3876173696625624648-n.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/j5W1NfwJ/100939876-261715911852373-3876173696625624648-n.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Gái Loli</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/gailoli.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/MK17V2BJ/14-D88-F79-90-B9-468-D-BBA0-C4-B9-CFA5-E868.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/MK17V2BJ/14-D88-F79-90-B9-468-D-BBA0-C4-B9-CFA5-E868.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Kana</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/kana.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/g0jnNk7q/131302320-664452370906713-138093577382057346-n.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/g0jnNk7q/131302320-664452370906713-138093577382057346-n.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Naughty</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/naughty.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/a4/b6/c0/a4b6c0249cab57f64a537d311e80ac67.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/a4/b6/c0/a4b6c0249cab57f64a537d311e80ac67.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Thầy Bói</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/thayboi.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/d3/2e/8b/d32e8b01f9e37bd8250f3d7d4a30c55b.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/d3/2e/8b/d32e8b01f9e37bd8250f3d7d4a30c55b.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Đạo Lí</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/daoly')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/12/49/f5/1249f5b065dd18c27041c79cecb65be4.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/12/49/f5/1249f5b065dd18c27041c79cecb65be4.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Pinterest</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/pinterest.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.ibb.co/yRzJsKR/cosplay209.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.ibb.co/yRzJsKR/cosplay209.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Cosplay 2</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/cosplay')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/originals/3b/3c/82/3b3c827a683073958f40dbf19aa7ad5a.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/originals/3b/3c/82/3b3c827a683073958f40dbf19aa7ad5a.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Hầu Gái</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/haugai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://imgur.com/qoTD9TM.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://imgur.com/qoTD9TM.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh AI</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/imageai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://imgur.com/J2BVZIE.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://imgur.com/J2BVZIE.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Ma</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/ma')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.postimg.cc/NfxT9nbJ/272835329-1134422637333156-4276352190230366816-n.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.postimg.cc/NfxT9nbJ/272835329-1134422637333156-4276352190230366816-n.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Mông</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/mong')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/ff/a6/92/ffa692eac0220b155b99ab948af5cf35.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/ff/a6/92/ffa692eac0220b155b99ab948af5cf35.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Nhạc MP3</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/mp3')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.imgur.com/9Fs03pc.jpeg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.imgur.com/9Fs03pc.jpeg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Robot</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/robot')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://r73troypb4obj.vcdn.cloud/website02/uploads/images/6242dc401a1b854d4e9030b8/tu-duy-khoa-hoc-la-gi-va-tim-hieu-cac-phuong-phap-hinh-thanh-tu-duy-khoa-hoc.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://r73troypb4obj.vcdn.cloud/website02/uploads/images/6242dc401a1b854d4e9030b8/tu-duy-khoa-hoc-la-gi-va-tim-hieu-cac-phuong-phap-hinh-thanh-tu-duy-khoa-hoc.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Khoa Học</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/science')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/de/1d/e7/de1de749efbb8f3db121c5f7ff105cdb.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/de/1d/e7/de1de749efbb8f3db121c5f7ff105cdb.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Chill</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/vdchill')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/b6/ae/96/b6ae96e10890a4a952a704703217494d.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/b6/ae/96/b6ae96e10890a4a952a704703217494d.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Cosplay</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/vdcosplay')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/01/fc/74/01fc74ed2e962821a984bd655e99172d.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/01/fc/74/01fc74ed2e962821a984bd655e99172d.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Gái</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/vdgai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/53/86/ec/5386ecb89f7d94cc18c30b606fe64a76.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/53/86/ec/5386ecb89f7d94cc18c30b606fe64a76.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Hana</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/vdhana')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/b2/5a/6a/b25a6a2d11d6d024fd3be294af849b03.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/b2/5a/6a/b25a6a2d11d6d024fd3be294af849b03.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Music</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/vdmusic')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/originals/6e/ac/04/6eac0473a4edf00bfe9f27c1645c08df.gif" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/originals/6e/ac/04/6eac0473a4edf00bfe9f27c1645c08df.gif 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Nhạc Remix</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/vdremix')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/736x/68/5b/ff/685bff44165a82114e4fbe7f9005fbf1.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/736x/68/5b/ff/685bff44165a82114e4fbe7f9005fbf1.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Video Trai</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/vdtrai')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://api.ipxi.cn/sjtp/api.php" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://api.ipxi.cn/sjtp/api.php 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Nhị Phân China</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://api.ipxi.cn/sjtp/api.php?return=json')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+<!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/6e/54/e8/6e54e8a799ce9183c467059a3c581ec0.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/6e/54/e8/6e54e8a799ce9183c467059a3c581ec0.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API 360 Ảnh Nền</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://api.ipxi.cn/wp/api.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://i.pinimg.com/564x/ed/ca/5b/edca5b32396117d32e2cb767e8819016.jpg" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://i.pinimg.com/564x/ed/ca/5b/edca5b32396117d32e2cb767e8819016.jpg 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Ảnh Vol China</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('https://api.ipxi.cn/sjyy/api.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                              <!-- Case Item -->
+                                <div class="col-12 col-lg-6">
+                                    <div class="case-item">
+                                        <img width="100" height="100" style="    border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;" src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2021/05/ki-nang-can-co-khi-lam-viec-tai-nha-3.png" alt="bo tròn ảnh" class="wp-image-12083" srcset="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2021/05/ki-nang-can-co-khi-lam-viec-tai-nha-3.png 150w, https://cdn.kiencang.net/wp-content/uploads/2021/02/cap-doi-hoan-canh-120x120.jpg 120w" sizes="(max-width: 200px) 100vw, 200px">                                        <div>&nbsp;
+                                            <h4 class="title title--h4">API Dự Đoán Công Việc Tương Lai</h4>
+                                            <button type="button" style="height:30px;width:100px" class="btn btn-primary" onclick="copy('http://api-emon-bhai.emonapi.repl.co/api/congviectuonglai.php')">COPY</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        <!-- Clients -->
+                    </div>
+                    <!-- Footer -->
+                    <br><br><br>
+  <style>
+  /* Footer Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<!-- Your Page Content -->
+
+<!-- Footer -->
+<div class="footer">
+  <h6>&copy; 2023 EMon-BHai API. All rights reserved. | Designed by <a href="https://www.facebook.com/anonytruc.user">EMon.BHai.FACEBOOK</a></h6>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- SVG masks -->
+    <svg class="svg-defs">
+        <clippath id="avatar-box">
+            <path d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z"></path>
+        </clippath>
+        <clippath id="avatar-hexagon">
+             <path d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z"></path>
+        </clippath>   
+    </svg>
+
+    <div class="back-to-top"></div>
+    <!-- JavaScripts -->
+<script>
+function copy(text) {
+  document.body.insertAdjacentHTML("beforeend","<div id=\"copy\" contenteditable>"+text+"</div>")
+  document.getElementById("copy").focus();
+  document.execCommand("selectAll");
+  document.execCommand("copy");
+  document.getElementById("copy").remove();
+  Swal.fire(
+  'Good!',
+  'Copy Thành Công !!',
+  'success'
+)
+}
+</script>
+    <script data-cfasync="false" src="email.min.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.min.js"></script>
+    <script src="assets/demo/plugins-demo.js"></script>
+</body>
+
+</html>
